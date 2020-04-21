@@ -1,0 +1,13 @@
+{
+  "name": "Manitayzır",
+  "version": "1.0",
+  "description": "Ulu manita adına!",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["manitayzir.js"],
+      "all_frames": true
+    }
+  ]
+}
